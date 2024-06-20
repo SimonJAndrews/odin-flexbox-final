@@ -15,7 +15,7 @@ header{
 ul{
     display: flex;
     list-style: none;
-    gap:15px;
+    gap:30px;
 }
 
 ul li a{
@@ -30,7 +30,7 @@ ul li a{
     display: flex;
     justify-content: center;
     background-color: #1F2937;
-    padding: 100px;
+    padding: 60px;
     gap: 20px;
     height: 210px;
 }
@@ -62,4 +62,45 @@ button{
 #two{
     background-color:#e5e7ebb1 ;
     width: 500px;
+}
+
+/* CSS for container two */
+
+.containerTwo{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+
+/*CSS for container three */
+
+.containerThree{
+    display:flex;
+    justify-content: space-between;
+    padding-left: 250px;
+    padding-right: 250px;
+
+}
+
+img{
+    height: 120px;px;
+    width: 120px;px;
+}
+
+/* CSS for container  four */
+
+.containerFour{
+
+    display:flex;
+    justify-content: space-between;
+    padding-left: 210px;
+    padding-right: 200px
+
+}
+
+.containerFour p{
+    text-align: center;
+    width:200px;
+    color: #1F2937;
 }
