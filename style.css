@@ -104,3 +104,42 @@ img{
     width:200px;
     color: #1F2937;
 }
+
+/* CSS for container five */
+
+.containerFive{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: #E5E7EB;
+    height:108px;
+    margin-top:0;
+    padding-top:100px;
+
+
+}
+
+.containerFive p{
+    display: flex;
+    color: #1F2937;
+    width: 600px;
+    font-size: 32px;
+    font-style: italic;
+    margin:0;
+    padding-top:0;
+    overflow: visible;
+}
+
+.author{
+    display: flex;
+    background-color: #E5E7EB;
+    padding-left: 810px;
+    height:150px;
+    padding-top: 7px;
+}
+
+.author p{
+    color: black;
+    font-weight: bold;
+}
+
