@@ -1,4 +1,9 @@
 
+*{
+    margin: 0;
+    padding:0;
+}
+
 /* Css for header above*/
 
 header{
@@ -9,6 +14,7 @@ header{
     align-items: center;
     padding-left: 100px;
     padding-right: 100px;
+    padding-top: 15px;
     color: white;
 }
 
@@ -33,6 +39,14 @@ ul li a{
     padding: 60px;
     gap: 20px;
     height: 210px;
+    
+}
+
+.mainimage{
+    height: 210px;px;
+    width: 500px;
+    padding:0;
+
 }
 
 p{
@@ -72,6 +86,10 @@ button{
     padding-bottom: 30px;
 }
 
+h2{
+    padding:15px;
+}
+
 
 /*CSS for container three */
 
@@ -86,6 +104,7 @@ button{
 img{
     height: 120px;px;
     width: 120px;px;
+    padding: 15px;
 }
 
 /* CSS for container  four */
@@ -95,7 +114,8 @@ img{
     display:flex;
     justify-content: space-between;
     padding-left: 210px;
-    padding-right: 200px
+    padding-right: 200px;
+    padding-bottom: 15px;
 
 }
 
@@ -143,3 +163,58 @@ img{
     font-weight: bold;
 }
 
+/* CSS for container six*/
+
+.containerSix{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    
+}
+
+.card{
+
+    background-color:#458cff ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:900px;
+    height:135px;
+    border-radius: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.buttoncard{
+
+    background-color:#458cff ;
+    border: solid 2px #f9faf8;
+    width: 150px;
+    height:35px;
+}
+
+.para3{
+    font-size: 26px;
+    color: white;
+    padding: 0;
+    margin:0
+}
+
+.para4{
+
+    padding: 0;
+    margin:0
+
+}
+
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1F2937 ;
+    color: white;
+    height:85px;
+    padding: 0;
+    margin: 0;
+}
