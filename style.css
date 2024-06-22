@@ -43,6 +43,7 @@ ul li a{
 }
 
 .mainimage{
+    display: flex;
     height: 210px;px;
     width: 500px;
     padding:0;
@@ -56,6 +57,7 @@ p{
 .paraone{
     font-weight: bold;
     font-size: 48px;
+    flex: 1;
     flex-wrap: wrap;
     width: 400px;
     padding-bottom: 20px;
@@ -72,6 +74,7 @@ button{
     width: 100px;
     height: 35px;
     padding: 10px;
+    flex: 1;
     background-color: #6ca2f9;
     border-radius: 10px;
     border: none;
@@ -167,6 +170,7 @@ img{
 .author p{
     color: black;
     font-weight: bold;
+    padding-top:20px
 }
 
 /* CSS for container six*/
